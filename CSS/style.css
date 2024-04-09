@@ -53,17 +53,19 @@ button {
     padding: 5rem 0;
 }
 
-.testo-introduzione {
+.testo-disp {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-h1 {
+.h-style {
     text-align: center;
     font-size: 3rem;
     padding-bottom: 2rem;
 }
+
+h2 {}
 
 .testo-intro {
     text-align: center;
@@ -73,4 +75,20 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.main-content-disp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20rem;
+    padding-top: 8rem;
+}
+
+#inverted {
+    flex-direction: row-reverse;
+}
+
+#last-main {
+    flex-direction: column;
 }
