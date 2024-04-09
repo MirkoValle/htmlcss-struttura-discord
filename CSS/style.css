@@ -21,15 +21,25 @@ header {
     padding: 1rem 3rem;
 }
 
-.menù {
+ul {
     display: flex;
     list-style: none;
     justify-content: space-around;
 }
 
+.ul-bot {
+    flex-direction: column;
+}
+
+li {
+    color: white;
+    padding-top: 1rem;
+}
+
+
+
 .tasti-menù {
     padding: 0 1rem;
-    color: white;
 }
 
 button {
@@ -41,7 +51,6 @@ button {
 
 .jumbo {
     background-image: url(../Img/jumbo.png);
-
 }
 
 .introduzione {
@@ -92,7 +101,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 20rem;
+    margin: 0 10rem;
     padding-top: 8rem;
 }
 
@@ -102,4 +111,29 @@ button {
 
 #last-main {
     flex-direction: column;
+}
+
+footer {
+    background-color: #23272a;
+}
+
+.footer-cont {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+.bot-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10rem;
+    padding-top: 5rem;
+}
+
+.end {
+    border-top: .15rem solid #4c5a87;
+    padding: 1.5rem;
+    margin: 3rem 10rem 0 10rem;
+    display: flex;
+    justify-content: space-between;
 }
