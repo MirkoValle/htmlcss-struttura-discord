@@ -2,12 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
 }
 
 .top-nav {
@@ -16,9 +21,19 @@ header {
 
 .barra-navigazione {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 1rem 3rem;
+    padding: 2rem 3rem;
+    margin: 0 10rem;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    padding-top: 1rem;
 }
 
 ul {
@@ -36,21 +51,26 @@ li {
     padding-top: 1rem;
 }
 
-
-
 .tasti-menù {
-    padding: 0 1rem;
+    padding: 0 2rem;
+    font-size: 1.2rem;
 }
 
 button {
-    padding: .5rem 1rem;
+    padding: .7rem 1.3rem;
     border-radius: 2rem;
     border: none;
+    margin: 0;
+    font-size: 1.3rem;
+}
 
+.bottone-intro {
+    margin: 0 .5rem;
 }
 
 .jumbo {
     background-image: url(../Img/jumbo.png);
+    background-size: cover;
 }
 
 .introduzione {
@@ -58,8 +78,8 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 33rem;
-    padding: 5rem 0;
+    margin: 12rem 30rem;
+    color: white;
 }
 
 .testo-disp {
@@ -69,7 +89,7 @@ button {
 }
 
 .h-style {
-    font-size: 3rem;
+    font-size: 4rem;
     padding-bottom: 2rem;
 
 }
@@ -89,12 +109,17 @@ button {
 
 .testo-intro {
     text-align: center;
+    font-size: 1.65rem;
+    line-height: 2.8rem;
 }
 
 .bottoni-top {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
+    padding-top: 1rem;
+
 }
 
 .main-content-disp {
