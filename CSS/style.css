@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 nav {
     background-color: #255ee9;
 }
@@ -31,4 +37,40 @@ button {
     border-radius: 2rem;
     border: none;
 
+}
+
+.jumbo {
+    background-image: url(../Img/jumbo.png);
+
+}
+
+.introduzione {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 33rem;
+    padding: 5rem 0;
+}
+
+.testo-introduzione {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.testo-intro {
+    text-align: center;
+}
+
+.bottoni-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
